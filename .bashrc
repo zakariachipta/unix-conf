@@ -152,6 +152,9 @@ export ANDROID_NDK=/media/dj/Shared/android-ndk-r10e
 
 # Git
 source '/usr/lib/git-core/git-sh-prompt'
+if ~/.git-prompt.sh ; then
+    source ~/.git-prompt.sh
+fi
 
 _has_commits() {
     if git rev-parse --verify HEAD > /dev/null 2>&1; then
