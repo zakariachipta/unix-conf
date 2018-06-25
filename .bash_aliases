@@ -28,7 +28,7 @@ alias ssh-add='eval $(ssh-agent) && ssh-add'
 alias gstat='git status'
 alias wip="git commit -a -m 'wip' && git push"
 alias startservices='sudo su -c "service mysql start; service redis-server restart;"'
-alias logcat-native='echo "adb logcat *:S ReactNative:V ReactNativeJS:V"; adb logcat *:S ReactNative:V ReactNativeJS:V'
+alias logcat-native='adb logcat ReactNative:V ReactNativeJS:V AndroidRuntime:V *:S'
 
 addpath() {
     export PATH=$PATH:$*

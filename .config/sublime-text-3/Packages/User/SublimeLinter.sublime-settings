@@ -5,12 +5,12 @@
     "lint_mode": "background",
     "linters": {
         "eslint": {
-            "@disable": false,
+            "disable": false,
             "args": [],
             "excludes": []
         },
         "standard": {
-            "@disable": false,
+            "disable": false,
             "args": [],
             "excludes": []
         }
@@ -21,7 +21,6 @@
         "osx": [],
         "windows": []
     },
-    "shell_timeout": 10,
     "show_marks_in_minimap": true,
     "syntax_map": {
         "coffeescript (gulpfile)": "coffeescript",

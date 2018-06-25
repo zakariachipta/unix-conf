@@ -6,6 +6,7 @@ mv ~/.gitignore ~/.gitignore.old
 mv ~/.profile ~/.profile.old
 mv ~/.tmux.conf ~/.tmux.conf.old
 mv ~/.inputrc ~/.inputrc.old
+mv ~/.tern-project ~/.tern-project.old
 
 printf "renamed already present files with '.old' postfix\n"
 
@@ -44,3 +45,6 @@ printf "Symlink created to .tmux.conf\n"
 
 ln -s $PWD/.inputrc ~/.inputrc
 printf "Symlink created to .inputrc\n\n"
+
+ln -s $PWD/.tern-project ~/.tern-project
+printf "Symlink created to .tern-project\n\n"
