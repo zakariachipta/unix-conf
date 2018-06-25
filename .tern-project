@@ -14,7 +14,7 @@
     "es_modules": {},
     "jasmine": {},
     "webpack": {
-      "configPath": "./webpack.renderer.additions.js"
+      "configPath": "./webpack.config.js"
     }
   }
 }
