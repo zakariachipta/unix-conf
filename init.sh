@@ -8,19 +8,40 @@ mv ~/.tmux.conf ~/.tmux.conf.old
 mv ~/.inputrc ~/.inputrc.old
 mv ~/.tern-project ~/.tern-project.old
 
-printf "renamed already present files with '.old' postfix\n"
+printf "renamed already present files with '.old' postfix\n\n"
 
-if [ ! -d ~/.config/sublime-text-3/Packages/ ]; then
-  mkdir -p ~/.config/sublime-text-3/Packages/
-  printf "Sublime Text 3 Packages folder created\n"
+if cat /proc/sys/kernel/osrelease | grep -q Microsoft; then
+  echo "WSL identified, using Windows folder for Sublime"
+
+  eval USERNAME=`cmd.exe /c "echo %USERNAME%"`
+  USERNAME="${USERNAME/$'\r'/}"
+
+  if [ ! -d /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/ ]; then
+    mkdir -p /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/
+    printf "Sublime Text 3 Packages Windows folder created\n"
+  else
+    mv /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User.old
+    printf "renamed sublime-text-3 Windows User folder or symlink with '.old' postfix\n"
+  fi
+
+  ln -s $PWD/.config/sublime-text-3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User
+  printf "Symlink created to Sublime Text 3 Windows User folder\n\n"
+
 else
-  mv ~/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User.old
-  printf "renamed sublime-text-3 User folder or symlink with '.old' postfix\n\n"
+  echo "WSL not identified, using Unix folder for Sublime"
+	
+  if [ ! -d ~/.config/sublime-text-3/Packages/ ]; then
+    mkdir -p ~/.config/sublime-text-3/Packages/
+    printf "Sublime Text 3 Packages Unix folder created\n"
+  else
+    mv ~/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User.old
+    printf "renamed sublime-text-3 Unix User folder or symlink with '.old' postfix\n"
+  fi
+
+  ln -s $PWD/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User
+  printf "Symlink created to Sublime Text 3 Unix User folder\n\n"
 fi
 
-
-ln -s $PWD/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User
-printf "Symlink created to Sublime Text 3 User folder\n"
 
 ln -s $PWD/.bashrc ~/.bashrc
 printf "Symlink created to .bashrc\n"

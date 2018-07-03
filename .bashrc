@@ -229,6 +229,3 @@ else
     echo "WSL not found"
     export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre/"
 fi
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
