@@ -25,11 +25,11 @@ if cat /proc/sys/kernel/osrelease | grep -q Microsoft; then
   fi
 
   ln -s $PWD/.config/sublime-text-3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User
-  printf "Symlink created to Sublime Text 3 Windows User folder\n\n"
+  printf "Symlink created to Sublime Text 3 Windows User folder\nbroken in WSL, create symlink manually with the following command in an admin cmd:\nmklink /J 'C:\\Users\\DJ\\AppData\\Roaming\\Sublime Text 3\\Packages\\User' B:\\dev\\unix-conf\\.config\\sublime-text-3\\Packages\\User\n\n"
 
 else
   echo "WSL not identified, using Unix folder for Sublime"
-	
+
   if [ ! -d ~/.config/sublime-text-3/Packages/ ]; then
     mkdir -p ~/.config/sublime-text-3/Packages/
     printf "Sublime Text 3 Packages Unix folder created\n"
