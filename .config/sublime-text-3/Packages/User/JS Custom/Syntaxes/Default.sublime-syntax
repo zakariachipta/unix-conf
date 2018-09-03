@@ -10,13 +10,10 @@ variables:
   identifier_start: '[_$\p{L}\p{Nl}]'
   identifier_part: '[_$\p{L}\p{Nl}\p{Mn}\p{Mc}\p{Nd}\p{Pc}\x{200C}\x{200D}]'
   identifier_break: (?!{{identifier_part}})
-
   identifier: (?:{{identifier_start}}{{identifier_part}}*{{identifier_break}})
   constant_identifier: (?:[[:upper:]]{{identifier_part}}*{{identifier_break}})
   dollar_only_identifier: (?:\${{identifier_break}})
   dollar_identifier: (?:(\$){{identifier_part}}*{{identifier_break}})
-
-  # https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
   reserved_word: |-
     (?x:
       break|case|catch|class|const|continue|debugger|default|delete|do|else|
@@ -25,13 +22,10 @@ variables:
       enum|
       null|true|false
     ){{identifier_break}}
-
   non_reserved_identifier: (?:(?!{{reserved_word}}){{identifier}})
-
   either_func_lookahead: (?:{{func_lookahead}}|{{arrow_func_lookahead}})
   binding_pattern_lookahead: (?:{{identifier}}|\[|\{)
   left_expression_end_lookahead: (?!\s*[.\[\(])
-
   property_name: "(?x:\n  {{identifier}}\n  | '(?:[^\\\\']|\\\\.)*'\n  | \"(?:[^\\\
     \\\"]|\\\\.)*\"\n  | \\[ .* \\]\n)"
   class_element_name: |-
@@ -40,14 +34,12 @@ variables:
       {{property_name}}
       | \#{{identifier}}
     )
-
   func_lookahead: |-
     (?x:
       \s*
       (?:async\s+)?
       function{{identifier_break}}
     )
-
   arrow_func_lookahead: |-
     (?x:
       \s*
@@ -59,17 +51,16 @@ variables:
       \s*
       =>
     )
-
   method_lookahead: |-
     (?x:(?=
       (?: get|set|async ){{identifier_break}}
       | \*
       | {{property_name}} \s* \(
     ))
-
   line_continuation_lookahead: "(?x:\n  (?! \\+\\+ | -- )\n  (?=\n    != |\n    [\
     \ -+*/% ><= &|^ \\[( ;,.:? ] |\n    (?:in|instanceof){{identifier_break}}\n  )\n\
     )"
+  eslint_directive: (?:global|eslint[\w-]*)
 contexts:
   main:
     - include: comments
@@ -80,6 +71,24 @@ contexts:
     - include: comments
 
   comments:
+    - match: (/\*)(?=\s*{{eslint_directive}})
+      scope: punctuation.definition.comment.js
+      push:
+        -   - meta_include_prototype: false
+            - meta_scope: comment.block.js
+            - match: \*/
+              scope: punctuation.definition.comment.js
+              pop: true
+        - eslint-directive
+    - match: (//)(?=\s*{{eslint_directive}})
+      scope: punctuation.definition.comment.js
+      push:
+        -   - meta_include_prototype: false
+            - meta_scope: comment.line.double-slash.js
+            - match: \n
+              pop: true
+        - eslint-directive
+
     - match: /\*\*(?!/)
       scope: punctuation.definition.comment.begin.js
       push:
@@ -1484,14 +1493,13 @@ contexts:
 
   bare-property-name:
     - match: '{{dollar_only_identifier}}'
-      scope: meta.object-literal.key.dollar.only.js punctuation.dollar.js
+      scope: string.unquoted.js meta.object-literal.key.dollar.only.js punctuation.dollar.js
     - match: '{{dollar_identifier}}'
-      scope: meta.object-literal.key.dollar.js
+      scope: string.unquoted.js meta.object-literal.key.dollar.js
       captures:
         1: punctuation.dollar.js
     - match: '{{identifier}}'
-      scope: meta.object-literal.key.js
-
+      scope: string.unquoted.js meta.object-literal.key.js
   computed-property-name:
     - match: \[
       scope: punctuation.section.brackets.begin.js
@@ -1964,4 +1972,9 @@ contexts:
           scope: variable.language.import.js
           pop: true
         - include: object-property
+    - include: else-pop
+  eslint-directive:
+    - match: '{{eslint_directive}}'
+      scope: support.function.pragma.eslint.js
+      pop: true
     - include: else-pop

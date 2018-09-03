@@ -9,7 +9,6 @@
 		"Alignment",
 		"All Autocomplete",
 		"Babel",
-		"Babel Snippets",
 		"Djaneiro",
 		"Dockerfile Syntax Highlighting",
 		"Dotfiles Syntax Highlighting",
@@ -23,12 +22,10 @@
 		"PowerShell",
 		"Pretty JSON",
 		"Python Flake8 Lint",
-		"react-native-snippets",
 		"Sass",
 		"SCSS",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-eslint",
-		"tern_for_sublime"
+		"SublimeLinter-eslint"
 	]
 }

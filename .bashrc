@@ -149,6 +149,8 @@ export PATH="$HOME/opt/jdk1.8.0_102/bin:$HOME/opt/android-sdk-linux/tools:$HOME/
 export ANDROID_SDK=/opt/android-sdk-linux
 export ANDROID_NDK=/media/dj/Shared/android-ndk-r10e
 
+export PATH="/opt/android-studio/bin:$PATH"
+
 
 # Git
 source '/usr/lib/git-core/git-sh-prompt'

@@ -1,0 +1,6 @@
+{
+    "defaults": {
+        "eslint_directives": true,
+        "string_object_keys": true
+    },
+}

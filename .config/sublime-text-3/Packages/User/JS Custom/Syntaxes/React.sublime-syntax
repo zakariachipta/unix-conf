@@ -65,6 +65,7 @@ variables:
   line_continuation_lookahead: "(?x:\n  (?! \\+\\+ | -- )\n  (?=\n    != |\n    [\
     \ -+*/% ><= &|^ \\[( ;,.:? ] |\n    (?:in|instanceof){{identifier_break}}\n  )\n\
     )"
+  eslint_directive: (?:global|eslint[\w-]*)
   jsx_identifier_part: (?:{{identifier_part}}|-)
   jsx_identifier_break: (?!{{jsx_identifier_part}})
   jsx_identifier: '{{identifier_start}}{{jsx_identifier_part}}*{{jsx_identifier_break}}'
@@ -79,6 +80,24 @@ contexts:
 
   comments:
     - include: flow-type-pragma
+
+    - match: (/\*)(?=\s*{{eslint_directive}})
+      scope: punctuation.definition.comment.js
+      push:
+        -   - meta_include_prototype: false
+            - meta_scope: comment.block.js
+            - match: \*/
+              scope: punctuation.definition.comment.js
+              pop: true
+        - eslint-directive
+    - match: (//)(?=\s*{{eslint_directive}})
+      scope: punctuation.definition.comment.js
+      push:
+        -   - meta_include_prototype: false
+            - meta_scope: comment.line.double-slash.js
+            - match: \n
+              pop: true
+        - eslint-directive
 
     - match: /\*\*(?!/)
       scope: punctuation.definition.comment.begin.js
@@ -1503,14 +1522,13 @@ contexts:
 
   bare-property-name:
     - match: '{{dollar_only_identifier}}'
-      scope: meta.object-literal.key.dollar.only.js punctuation.dollar.js
+      scope: string.unquoted.js meta.object-literal.key.dollar.only.js punctuation.dollar.js
     - match: '{{dollar_identifier}}'
-      scope: meta.object-literal.key.dollar.js
+      scope: string.unquoted.js meta.object-literal.key.dollar.js
       captures:
         1: punctuation.dollar.js
     - match: '{{identifier}}'
-      scope: meta.object-literal.key.js
-
+      scope: string.unquoted.js meta.object-literal.key.js
   computed-property-name:
     - match: \[
       scope: punctuation.section.brackets.begin.js
@@ -1987,6 +2005,11 @@ contexts:
           scope: variable.language.import.js
           pop: true
         - include: object-property
+    - include: else-pop
+  eslint-directive:
+    - match: '{{eslint_directive}}'
+      scope: support.function.pragma.eslint.js
+      pop: true
     - include: else-pop
   flow-type-declare:
     - match: declare{{identifier_break}}(?=\s*(?:type|class|function|var|let|const|opaque|export|module){{identifier_break}})
