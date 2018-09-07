@@ -142,12 +142,13 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-export NODE_ENV='development'
-export ANDROID_HOME=/opt/android-sdk-linux
-export PATH="$HOME/opt/jdk1.8.0_102/bin:$HOME/opt/android-sdk-linux/tools:$HOME/opt/android-sdk-linux/platform-tools:$PATH"
 
-export ANDROID_SDK=/opt/android-sdk-linux
-export ANDROID_NDK=/media/dj/Shared/android-ndk-r10e
+export NODE_ENV='development'
+
+export ANDROID_HOME=$HOME/dev/android-sdk
+export ANDROID_SDK=$HOME/dev/android-sdk
+
+export PATH="$HOME/dev/android-sdk/tools:$HOME/dev/android-sdk/platform-tools:$PATH"
 
 export PATH="/opt/android-studio/bin:$PATH"
 
@@ -215,12 +216,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
-
-# Android studio & sdk installed through umake
-export PATH="$HOME/.local/share/umake/android/android-studio/bin/:$PATH"
-export PATH="$HOME/.local/share/umake/android/android-sdk/tools/:$PATH"
-export PATH="$HOME/.local/share/umake/android/android-sdk/platform-tools/:$PATH"
-ANDROID_HOME=$HOME/.local/share/umake/android/android-sdk
+export PATH="$(python3 -m site --user-base)/bin:$PATH"
 
 # Windows Subsystem for Linux specific initialisation:
 if cat /proc/sys/kernel/osrelease | grep -q Microsoft; then

@@ -58,8 +58,9 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
+		72,
 		80,
-		120
+		100
 	],
 	"scroll_speed": 0.68,
 	"show_line_endings": true,
