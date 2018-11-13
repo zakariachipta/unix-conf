@@ -8,64 +8,74 @@ mv ~/.tmux.conf ~/.tmux.conf.old
 mv ~/.inputrc ~/.inputrc.old
 mv ~/.tern-project ~/.tern-project.old
 
-printf "renamed already present files with '.old' postfix\n\n"
+printf "    renamed already present files with '.old' postfix\n"
 
 if cat /proc/sys/kernel/osrelease | grep -q Microsoft; then
-  echo "WSL identified, using Windows folder for Sublime"
+  printf "    WSL identified, using Windows folders\n\n"
 
   eval USERNAME=`cmd.exe /c "echo %USERNAME%"`
   USERNAME="${USERNAME/$'\r'/}"
 
-  if [ ! -d /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/ ]; then
-    mkdir -p /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/
-    printf "Sublime Text 3 Packages Windows folder created\n"
-  else
-    mv /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User.old
-    printf "renamed sublime-text-3 Windows User folder or symlink with '.old' postfix\n"
-  fi
+  printf "    Symlink not created to Sublime Text 3 Windows User folder\n\nthis is broken in WSL, create symlink manually with the following command in an admin cmd:\nmklink /j \"C:\\\Users\\DJ\\AppData\\Roaming\\Sublime Text 3\\Packages\\\User\" B:\\dev\\\unix-conf\\.config\\sublime-text-3\\Packages\\\User\n\n\n"
 
-  ln -s $PWD/.config/sublime-text-3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User
-  printf "Symlink created to Sublime Text 3 Windows User folder\nbroken in WSL, create symlink manually with the following command in an admin cmd:\nmklink /J 'C:\\Users\\DJ\\AppData\\Roaming\\Sublime Text 3\\Packages\\User' B:\\dev\\unix-conf\\.config\\sublime-text-3\\Packages\\User\n\n"
+
+  printf "    Symlink not created to VScode Windows User folder\n\nthis is broken in WSL, create symlink manually with the following command in an admin cmd:\nmklink /j \"C:\\\Users\\DJ\\AppData\\Roaming\\Code\\\User\" B:\\dev\\\unix-conf\\Code\\\User\n\n\n"
+
 
 else
-  echo "WSL not identified, using Unix folder for Sublime"
+  echo "    WSL not identified, using Unix folders"
+
 
   if [ ! -d ~/.config/sublime-text-3/Packages/ ]; then
     mkdir -p ~/.config/sublime-text-3/Packages/
-    printf "Sublime Text 3 Packages Unix folder created\n"
+    printf "    Sublime Text 3 Packages Unix folder created\n"
   else
     mv ~/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User.old
-    printf "renamed sublime-text-3 Unix User folder or symlink with '.old' postfix\n"
+    printf "    renamed sublime-text-3 Unix User folder or symlink with '.old' postfix\n"
   fi
 
   ln -s $PWD/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User
-  printf "Symlink created to Sublime Text 3 Unix User folder\n\n"
+  printf "    Symlink created to Sublime Text 3 Unix User folder\n\n"
+
+
+
+  if [ ! -d ~/.config/Code/User/ ]; then
+    mkdir -p ~/.config/Code/User/
+    printf "    VScode Unix folder created\n"
+  else
+    mv ~/.config/Code/User ~/.config/Code/User.old
+    printf "    renamed VScode Unix User folder or symlink with '.old' postfix\n"
+  fi
+
+  ln -s $PWD/.config/Code/User ~/.config/Code/User
+  printf "    Symlink created to VScode Unix User folder\n\n"
 fi
 
 
 ln -s $PWD/.bashrc ~/.bashrc
-printf "Symlink created to .bashrc\n"
+printf "    Symlink created to .bashrc\n"
 
 ln -s $PWD/.bash_aliases ~/.bash_aliases
-printf "Symlink created to .bash_aliases\n"
+printf "    Symlink created to .bash_aliases\n"
 
 ln -s $PWD/.bash_profile ~/.bash_profile
-printf "Symlink created to .bash_profile\n"
+printf "    Symlink created to .bash_profile\n"
 
 ln -s $PWD/.gitconfig ~/.gitconfig
-printf "Symlink created to .gitconfig\n"
+printf "    Symlink created to .gitconfig\n"
 
 ln -s $PWD/.gitignore ~/.gitignore
-printf "Symlink created to .gitignore\n"
+printf "    Symlink created to .gitignore\n"
 
 ln -s $PWD/.profile ~/.profile
-printf "Symlink created to .profile\n"
+printf "    Symlink created to .profile\n"
 
 ln -s $PWD/.tmux.conf ~/.tmux.conf
-printf "Symlink created to .tmux.conf\n"
+printf "    Symlink created to .tmux.conf\n"
 
 ln -s $PWD/.inputrc ~/.inputrc
-printf "Symlink created to .inputrc\n\n"
+printf "    Symlink created to .inputrc\n"
 
 ln -s $PWD/.tern-project ~/.tern-project
-printf "Symlink created to .tern-project\n\n"
+printf "    Symlink created to .tern-project\n\n"
+
