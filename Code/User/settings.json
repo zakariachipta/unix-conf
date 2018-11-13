@@ -27,7 +27,6 @@
     ],
     "files.eol": "\n",
     "npm-intellisense.importLinebreak": "\n",
-    "editor.formatOnSave": true,
     "editor.codeLens": false,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "window.zoomLevel": 0,
@@ -120,4 +119,10 @@
         "**/node_modules/**",
         "**/static/**"
     ],
+    "search.showLineNumbers": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "npm.packageManager": "yarn",
+    "eslint.packageManager": "yarn",
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
 }
