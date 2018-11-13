@@ -1,7 +1,7 @@
 {
     "align_indent": false,
 
-    "alignment_chars": ["=", ":", "//", " from", "&&", "||"],
+    "alignment_chars": ["=", ":", "//", " from", "&&"],
 
     // If the following character is matched for alignment, insert a space
     // before it in the final alignment

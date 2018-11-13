@@ -1120,16 +1120,6 @@ a {
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>Python Flake8 Lint Warning</string>
-            <key>scope</key>
-            <string>flake8lint.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#EDBA00</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>Python Flake8 Lint Error</string>
             <key>scope</key>
             <string>flake8lint.mark.error</string>
@@ -1137,6 +1127,16 @@ a {
             <dict>
                 <key>foreground</key>
                 <string>#DA2000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>Python Flake8 Lint Warning</string>
+            <key>scope</key>
+            <string>flake8lint.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EDBA00</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
