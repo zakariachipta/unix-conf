@@ -14,6 +14,6 @@
   ui = true
 [core]
   excludesfile = ~/.gitignore
-  editor = 'subl' --wait
+  editor = 'code' --wait
 [pull]
   rebase = true

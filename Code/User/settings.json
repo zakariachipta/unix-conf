@@ -60,7 +60,7 @@
     "update.channel": "default",
     "html.format.endWithNewline": true,
     "git.confirmSync": false,
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "files.associations": {
         "*.txt": "markdown",
         "*.json": "jsonc",
@@ -125,4 +125,6 @@
     "eslint.packageManager": "yarn",
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
 }
