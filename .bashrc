@@ -75,10 +75,10 @@ export HISTSIZE=1000
 export HISTFILESIZE=2000
 
 # Set the default editor to sublime-text if available
-if hash subl 2>/dev/null; then
-    printf "setting subl as default editor\n"
-    export EDITOR=subl
-    export VISUAL=subl
+if hash code 2>/dev/null; then
+    printf "setting code as default editor\n"
+    export EDITOR=code
+    export VISUAL=code
 else
     printf "setting vim as default editor\n"
     export EDITOR=vim
