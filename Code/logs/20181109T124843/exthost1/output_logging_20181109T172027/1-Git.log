@@ -1,0 +1,68 @@
+Looking for git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.19.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git show :src/core/helpers/strings.json
+> git rev-parse --symbolic-full-name mobx@{u}
+> git ls-files --stage -- src/core/helpers/
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop\src\views
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git show :helpers/strings.json
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/strings.json
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin

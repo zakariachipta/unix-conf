@@ -1,0 +1,156 @@
+Looking for git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.19.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop
+> git fetch
+> git status -z -u
+> git show :src/views/optimized-list.js
+> git check-ignore -z --stdin
+> git ls-files --stage -- src/views/
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git show :src/views/optimized-list.js
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git ls-files --stage -- src/views/
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop\src\core
+> git fetch
+> git status -z -u
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop\src\views
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :optimized-list.js
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\unix-conf
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :init.sh
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+> git fetch
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+> git fetch
+> git status -z -u
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+git@gitlab.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

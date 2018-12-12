@@ -11,11 +11,10 @@ mv ~/.tern-project ~/.tern-project.old
 printf "    renamed already present files with '.old' postfix\n"
 
 if cat /proc/sys/kernel/osrelease | grep -q Microsoft; then
-  printf "    WSL identified\n\n"
-  printf "    Symlink not created to Sublime Text 3 Windows User folder\n\nthis is broken in WSL, create symlink manually with the following command in an admin cmd:\nmklink /j \"C:\\\Users\\DJ\\AppData\\Roaming\\Sublime Text 3\\Packages\\\User\" B:\\dev\\\unix-conf\\.config\\sublime-text-3\\Packages\\\User\n\n\n"
-  printf "    Symlink not created to VScode Windows User folder\n\nthis is broken in WSL, create symlink manually with the following command in an admin cmd:\nmklink /j \"C:\\\Users\\DJ\\AppData\\Roaming\\Code\\\User\" B:\\dev\\\unix-conf\\Code\\\User\n\n\n"
-else
-  echo "    WSL not identified, using Unix folders"
+  echo "WSL identified, using Windows folders"
+
+  eval USERNAME=`cmd.exe /c "echo %USERNAME%"`
+  USERNAME="${USERNAME/$'\r'/}"
 
   if [ ! -d ~/.config/sublime-text-3/Packages/ ]; then
     mkdir -p ~/.config/sublime-text-3/Packages/
@@ -25,9 +24,23 @@ else
     printf "    renamed sublime-text-3 Unix User folder or symlink with '.old' postfix\n"
   fi
 
-  ln -s $PWD/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/
-  printf "    Symlink created to Sublime Text 3 Unix User folder\n\n"
+  ln -s $PWD/.config/sublime-text-3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User
+  printf "Symlink created to Sublime Text 3 Windows User folder%s\nbroken in WSL, create symlink manually with the following command in an admin cmd:%s\n mklink /J 'C:%s\Users\\DJ\\AppData\\Roaming\\Sublime Text 3\\Packages%s\User' B:\\dev\\unix-conf\\.config\\sublime-text-3\\Packages%s\User%s\n%s\n"
 
+
+  if [ ! -d /mnt/c/Users/$USERNAME/AppData/Roaming/Code/ ]; then
+    mkdir -p /mnt/c/Users/$USERNAME/AppData/Roaming/Code/
+    printf "VScode Windows folder created\n"
+  else
+    mv /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User /mnt/c/Users/$USERNAME/AppData/Roaming/Sublime\ Text\ 3/Packages/User.old
+    printf "renamed VScode Windows User folder or symlink with '.old' postfix\n"
+  fi
+
+  ln -s $PWD/Code /mnt/c/Users/$USERNAME/AppData/Roaming/Code/
+  printf "Symlink created to VScode Windows User folder%s\n broken in WSL, create symlink manually with the following command in an admin cmd:%s\n mklink /J 'C:\\Users\\DJ\\AppData\\Roaming\\Code' B:\\dev\\unix-conf\\Code%s\n%s\n"
+
+else
+  echo "WSL not identified, using Unix folders"
 
   if [ ! -d ~/.config/Code/User/ ]; then
     mkdir -p ~/.config/Code/User/
@@ -37,8 +50,20 @@ else
     printf "    renamed VScode Unix User folder or symlink with '.old' postfix\n"
   fi
 
-  ln -s $PWD/Code/User ~/.config/Code/
-  printf "    Symlink created to VScode Unix User folder\n\n"
+  ln -s $PWD/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User
+  printf "Symlink created to Sublime Text 3 Unix User folder\n\n"
+
+
+  if [ ! -d ~/.config/Code/ ]; then
+    mkdir -p ~/.config/Code/
+    printf "VScode Unix folder created\n"
+  else
+    mv ~/.config/Cpde ~/.config/Code.old
+    printf "renamed VScode Unix User folder or symlink with '.old' postfix\n"
+  fi
+
+  ln -s $PWD/.config/Code ~/.config/Code
+  printf "Symlink created to VScode Unix User folder\n\n"
 fi
 
 
@@ -65,4 +90,3 @@ cat code-extensions.txt | xargs -L 1 code --install-extension
 printf "    installed vscode extensions from code-extensions.txt\n"
 code --list-extensions > code-extensions.txt
 printf "    saved currently installed VScode extensions in code-extensions.txt\n\n"
-

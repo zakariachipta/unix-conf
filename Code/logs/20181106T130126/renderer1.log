@@ -1,0 +1,31 @@
+[2018-11-06 13:01:36.720] [renderer1] [error] net::ERR_CONNECTION_REFUSED: {1}
+[2018-11-06 13:01:40.839] [renderer1] [error] net::ERR_CONNECTION_REFUSED: {1}
+[2018-11-06 15:52:07.342] [renderer1] [info] no standard startup: not a new window
+[2018-11-06 15:54:59.365] [renderer1] [error] ENOENT: no such file or directory, open 'C:\b:\dev\scan-app-desktop\.babelrc': Error: ENOENT: no such file or directory, open 'C:\b:\dev\scan-app-desktop\.babelrc'
+[2018-11-06 15:57:09.594] [renderer1] [error] ENOENT: no such file or directory, open 'C:\b:\dev\scan-app-desktop\.babelrc': Error: ENOENT: no such file or directory, open 'C:\b:\dev\scan-app-desktop\.babelrc'
+[2018-11-06 16:09:07.318] [renderer1] [info] Requested uninstalling the extension dollyn.line-counter from window 1
+[2018-11-06 16:09:07.343] [renderer1] [info] Uninstalling the extension dollyn.line-counter-0.5.2 from window 1
+[2018-11-06 16:09:12.304] [renderer1] [info] no standard startup: not a new window
+[2018-11-06 19:54:40.073] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2018-11-06 20:13:14.967] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at f._assertNotDisposed (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:1145:198)
+    at f.validateRange (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:1155:571)
+    at f._applyEdits (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:1159:930)
+    at f.applyEdits (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:1159:530)
+    at file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:3208:911
+    at Object.g [as _notify] (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:160:729)
+    at Object.enter (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:164:61)
+    at n.Class.derive._creator._run (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:165:902)
+    at n.Class.derive._creator._completed (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:165:343)
+    at Object.g [as _notify] (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:160:729)
+    at Object.enter (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:164:61)
+    at n.Class.derive._oncancel._run (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:165:902)
+    at n.Class.derive._oncancel._completed (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:165:343)
+    at Object.g [as _notify] (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:160:729)
+    at Object.enter (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:164:61)
+    at n.Class.derive._oncancel._run (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:165:902)
+    at n.Class.derive._oncancel._completed (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:165:343)
+    at e._handleMessage (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:278:535)
+    at e.handleMessage (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:278:158)
+    at file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:279:132
+    at Worker.s.worker.onmessage (file:///C:/Users/DJ/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/workbench/workbench.main.js:357:830)

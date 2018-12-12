@@ -1,0 +1,2260 @@
+Looking for git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.19.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git show :src/core/helpers/strings.json
+> git rev-parse --symbolic-full-name mobx@{u}
+> git ls-files --stage -- src/core/helpers/
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: b:\dev\scan-app-desktop\src\views
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git show :helpers/strings.json
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git show :dev/electron notes.txt
+> git rev-parse mobx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :dev/electron notes.txt
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\views\subcomponents\button.js
+> git show 2d8d1752bf52aaaed2f26e6ca0b42009b1d40566
+> git show HEAD:subcomponents/button.js
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\views\message-queue-modal.js
+> git show a9587ece93d0b9c39e2dc581305e042fb5b5463a
+> git show HEAD:message-queue-modal.js
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\views\global-error.js
+> git show e4d92e3aa0b7c797de7628b26fa57fcbfbb695f7
+> git show HEAD:global-error.js
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\views\event-products-list-error.js
+> git show dccc2c8608690938ebb5d84dde04561f702e1492
+> git show HEAD:event-products-list-error.js
+> git add -A -- .
+warning: CRLF will be replaced by LF in event-products-list-error.js.
+The file will have its original line endings in your working directory
+> git commit --quiet --allow-empty-message --file - --all
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git show HEAD:event-products-list-error.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\helpers\strings.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\core\components\options.js
+> git show c68c738b75624c58526acc8f5f4ad932b86c0c67
+> git show HEAD:components/options.js
+> git status -z -u
+> git show HEAD:components/options.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\components\options.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git commit --quiet --allow-empty-message --file -
+> git show :components/options.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show HEAD:components/options.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\renderer\index.js
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show 0815caa247d25e9b8a3c37a3d46a22b2bc607ce3
+> git show HEAD:src/renderer/index.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:src/renderer/index.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\views
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:src/renderer/index.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :dev/electron notes.txt
+> git show :src/components/details-modal.js
+> git show :src/components/scan-app.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/scanners.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/details-modal.js
+> git fetch
+> git fetch
+> git fetch
+> git show :src/components/details-modal.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git status -z -u
+> git rev-parse --symbolic-full-name mobx@{u}
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/details-modal.js
+> git show :src/components/scanners.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/side-bar.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git show :src/viewcomponents/login-view.js
+> git fetch
+> git show :src/viewcomponents/login-view.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git show :src/viewcomponents/login-view.js
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/renderer/index.js
+> git show :components/init.js
+> git show :components/init.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :components/init.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git status -z -u
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git status -z -u
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/initial-state.js
+> git check-ignore -z --stdin
+> git show :components/init.js
+> git show :src/renderer/index.js
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :global-error.js
+> git check-ignore -z --stdin
+> git show :src/viewcomponents/login-view.js
+> git show :global-error.js
+> git fetch
+> git fetch
+> git fetch
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git status -z -u
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git show :helpers/theme.js
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/viewcomponents/login-view.js
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/viewcomponents/login-view.js
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/renderer/index.js
+> git show :src/viewcomponents/login-view.js
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :global-error.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git fetch
+> git fetch
+> git fetch
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/viewcomponents/login-view.js
+> git show :global-error.js
+> git show :src/viewcomponents/login-view.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git show :src/viewcomponents/login-view.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/viewcomponents/login-view.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git show :src/renderer/index.js
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :src/renderer/index.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git symbolic-ref --short HEAD
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git show :src/renderer/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git fetch
+> git fetch
+> git fetch
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git fetch
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :global-error.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git fetch
+> git fetch
+> git fetch
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git status -z -u
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git symbolic-ref --short HEAD
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git status -z -u
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\views\global-error.js
+> git show 94c4968fc26078fc887752402231b68bf2af5549
+> git show HEAD:global-error.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\views\global-error.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :global-error.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\views\global-error.js
+> git show 94c4968fc26078fc887752402231b68bf2af5549
+> git ls-files --stage -- b:\dev\scan-app-desktop\src\views\global-error.js
+> git cat-file -s e913e01f8d7b5d3fec88595cd21ea203a9c49504
+> git show e913e01f8d7b5d3fec88595cd21ea203a9c49504
+> git show HEAD:global-error.js
+> git show :global-error.js
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git show HEAD:global-error.js
+> git show :global-error.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git show 67a804dae678d1df2e74fd6f09c2453e67c1f8f2
+> git show HEAD:helpers/websockets.js
+> git fetch
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show HEAD:helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:helpers/websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git status -z -u
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git show 67a804dae678d1df2e74fd6f09c2453e67c1f8f2
+> git ls-files --stage -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\core\components\init.js
+> git cat-file -s 5d2e443759483a677762d98fa7cdaf8bfb9afaf6
+> git show cd94a0b740dc5d6118f60319085535d8ff9b4a8e
+> git show 5d2e443759483a677762d98fa7cdaf8bfb9afaf6
+> git show HEAD:components/init.js
+> git show HEAD:helpers/websockets.js
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\core\components\init.js
+> git show cd94a0b740dc5d6118f60319085535d8ff9b4a8e
+> git show HEAD:components/init.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\components\init.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :helpers/websockets.js
+> git show :components/init.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\viewcomponents\login-view.js
+> git show ba43ce5aaeacf5ee48c225d8539869c7b91f0001
+> git show HEAD:src/viewcomponents/login-view.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\viewcomponents\login-view.js
+warning: CRLF will be replaced by LF in src/viewcomponents/login-view.js.
+The file will have its original line endings in your working directory
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\renderer\index.js
+> git show 0815caa247d25e9b8a3c37a3d46a22b2bc607ce3
+> git status -z -u
+> git show HEAD:src/renderer/index.js
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :global-error.js
+> git fetch
+> git fetch
+> git fetch
+> git show HEAD:src/renderer/index.js
+> git show :global-error.js
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git show HEAD:src/renderer/index.js
+> git show :global-error.js
+> git show :helpers/websockets.js
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\views\global-error.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show HEAD:src/renderer/index.js
+> git show :global-error.js
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show -s --format=%H
+%P
+%B c51fe1d2f6d5977bd0280e5fd6b773b2c1ad6c99
+> git commit --quiet --allow-empty-message --file - --amend
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:src/renderer/index.js
+> git show :global-error.js
+> git show :helpers/websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\renderer\index.js
+> git show 0815caa247d25e9b8a3c37a3d46a22b2bc607ce3
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\renderer\index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\components\side-bar.js
+> git show :src/renderer/index.js
+> git show :helpers/websockets.js
+> git show 9429328ca6404c3180a83ccd8a75cf58b7868a69
+> git show HEAD:src/components/side-bar.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\components\side-bar.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\components\scanners.js
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git show 852df78e9ef0db0652e61f71c5f8e63b81b61fd7
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:src/components/scanners.js
+> git show :helpers/websockets.js
+> git show HEAD:src/components/scanners.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\components\scanners.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git ls-tree -l HEAD -- b:\dev\scan-app-desktop\src\components\scan-app.js
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git show 9cb7e7b50823e8e69076b85fab78324f2cb5ca88
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:src/components/scan-app.js
+> git status -z -u
+> git show :helpers/websockets.js
+> git show HEAD:src/components/scan-app.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\components\scan-app.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git show :src/components/scan-app.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\views
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git show :src/components/scan-app.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git show :src/components/scan-app.js
+> git diff -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git show :global-error.js
+> git show :helpers/websockets.js
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git status -z -u
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git status -z -u
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git symbolic-ref --short HEAD
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :helpers/websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git status -z -u
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git status -z -u
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git symbolic-ref --short HEAD
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git symbolic-ref --short HEAD
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+> git fetch
+> git fetch
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname gitlab.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-files --stage -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git cat-file -s 9bafee48e55461daee9b457675591677eda59a4e
+> git show 9bafee48e55461daee9b457675591677eda59a4e
+> git show :helpers/websockets.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core\helpers\websockets.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git show HEAD:helpers/websockets.js
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git diff -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- b:\dev\scan-app-desktop\src\core
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mobx
+> git rev-parse --symbolic-full-name mobx@{u}
+> git rev-list --left-right mobx...refs/remotes/origin/mobx
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :helpers/websockets.js

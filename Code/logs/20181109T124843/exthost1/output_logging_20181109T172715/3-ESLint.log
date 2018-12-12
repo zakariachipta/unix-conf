@@ -1,0 +1,8 @@
+[Info  - 5:27:35 PM] ESLint server stopped.
+[Info  - 5:27:37 PM] ESLint server running in node v8.9.3
+[Info  - 5:27:37 PM] ESLint server is running.
+[Info  - 5:27:44 PM] ESLint library loaded from: b:\dev\scan-app-desktop\node_modules\eslint\lib\api.js
+(node:2888) [ESLINT_LEGACY_OBJECT_REST_SPREAD] DeprecationWarning: The 'parserOptions.ecmaFeatures.experimentalObjectRestSpread' option is deprecated. Use 'parserOptions.ecmaVersion' instead. (found in "standard-react")
+(node:2888) [ESLINT_LEGACY_OBJECT_REST_SPREAD] DeprecationWarning: The 'parserOptions.ecmaFeatures.experimentalObjectRestSpread' option is deprecated. Use 'parserOptions.ecmaVersion' instead. (found in "..\..\node_modules\eslint-config-standard-jsx\index.js")
+(node:2888) [ESLINT_LEGACY_OBJECT_REST_SPREAD] DeprecationWarning: The 'parserOptions.ecmaFeatures.experimentalObjectRestSpread' option is deprecated. Use 'parserOptions.ecmaVersion' instead. (found in "standard")
+[Info  - 6:43:22 PM] ESLint server stopped.

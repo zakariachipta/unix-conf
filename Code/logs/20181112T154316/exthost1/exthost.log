@@ -1,0 +1,23 @@
+[2018-11-12 15:43:25.883] [exthost] [info] extension host started
+[2018-11-12 15:43:25.942] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:25.942] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\DJ\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\debug-auto-launch\dist\extension
+[2018-11-12 15:43:26.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:26.035] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\DJ\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\emmet\dist\extension
+[2018-11-12 15:43:26.269] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:26.269] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\DJ\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main
+[2018-11-12 15:43:26.680] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:26.680] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\DJ\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\merge-conflict\dist\extension
+[2018-11-12 15:43:26.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:26.825] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\DJ\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\search-rg\dist\extension
+[2018-11-12 15:43:26.987] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:26.987] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\DJ\.vscode\extensions\dbaeumer.vscode-eslint-1.7.0\client\out\extension
+[2018-11-12 15:43:30.455] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:30.455] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\DJ\.vscode\extensions\equinusocio.vsc-material-theme-2.5.1\extensions\material.theme.config.js
+[2018-11-12 15:43:31.004] [exthost] [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-codemetrics {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:31.004] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\DJ\.vscode\extensions\kisstkondoros.vscode-codemetrics-1.17.3\out\src\extension
+[2018-11-12 15:43:41.509] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:41.509] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\DJ\.vscode\extensions\naumovs.color-highlight-2.3.0\dist\extension
+[2018-11-12 15:43:41.647] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:41.647] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\DJ\.vscode\extensions\pkief.material-icon-theme-3.6.0\out\src\extension
+[2018-11-12 15:43:44.178] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2018-11-12 15:43:44.178] [exthost] [info] ExtensionService#loadCommonJSModule C:\Users\DJ\.vscode\extensions\shan.code-settings-sync-3.2.0\out\src\extension

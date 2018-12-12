@@ -1,0 +1,28 @@
+[2018-11-12 15:03:13.977] [sharedprocess] [info] main {"machineId":"0157fa6fb1142a65ad944c8efba470ab85f1342ffdcd801b486adab886e8fa7f"}
+[2018-11-12 15:03:18.830] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:03:54.009] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-11-12 15:04:26.177] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-12 15:04:33.050] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:04:33.051] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:04:33.057] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:04:33.061] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:04:33.198] [sharedprocess] [info] Deleted from disk kodetech.electron-debug-18.8.1
+[2018-11-12 15:04:33.226] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-12 15:04:33.232] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-12 15:04:33.313] [sharedprocess] [info] Deleted from disk ms-python.python-2018.10.0
+[2018-11-12 15:05:34.458] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:05:34.498] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-12 15:05:39.209] [sharedprocess] [info] Installing extension: code-settings-sync
+[2018-11-12 15:05:39.236] [sharedprocess] [info] Scanned user extensions: 17
+[2018-11-12 15:05:39.902] [sharedprocess] [info] Downloaded extension: code-settings-sync C:\Users\DJ\AppData\Local\Temp\e3597a86-713e-46f0-a754-d37e69bfac09
+[2018-11-12 15:06:07.993] [sharedprocess] [info] Extracted extension to C:\Users\DJ\.vscode\extensions\.shan.code-settings-sync-3.2.0: shan.code-settings-sync-3.2.0
+[2018-11-12 15:06:08.019] [sharedprocess] [info] Renamed to C:\Users\DJ\.vscode\extensions\shan.code-settings-sync-3.2.0
+[2018-11-12 15:06:08.019] [sharedprocess] [info] Installation completed. shan.code-settings-sync-3.2.0
+[2018-11-12 15:06:08.039] [sharedprocess] [info] Extensions installed successfully: shan.code-settings-sync
+[2018-11-12 15:06:08.180] [sharedprocess] [info] Scanned user extensions: 18
+[2018-11-12 15:06:08.218] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-12 15:09:33.116] [sharedprocess] [info] Scanned user extensions: 18
+[2018-11-12 15:14:33.203] [sharedprocess] [info] Scanned user extensions: 18
+[2018-11-12 15:19:33.239] [sharedprocess] [info] Scanned user extensions: 18
+[2018-11-12 15:24:33.285] [sharedprocess] [info] Scanned user extensions: 18
+[2018-11-12 15:29:33.346] [sharedprocess] [info] Scanned user extensions: 18

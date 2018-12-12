@@ -1,0 +1,19 @@
+[2018-11-06 13:01:26.633] [main] [info] update#setState idle
+[2018-11-06 13:01:56.635] [main] [info] update#setState checking for updates
+[2018-11-06 13:01:57.737] [main] [error] Error: net::ERR_CONNECTION_REFUSED
+[2018-11-06 13:01:57.738] [main] [info] update#setState idle
+[2018-11-06 14:01:56.637] [main] [info] update#setState checking for updates
+[2018-11-06 14:01:56.737] [main] [info] update#setState idle
+[2018-11-06 15:01:56.640] [main] [info] update#setState checking for updates
+[2018-11-06 15:01:56.740] [main] [info] update#setState idle
+[2018-11-06 16:01:56.643] [main] [info] update#setState checking for updates
+[2018-11-06 16:01:56.728] [main] [info] update#setState idle
+[2018-11-06 17:01:56.646] [main] [info] update#setState checking for updates
+[2018-11-06 17:01:56.764] [main] [info] update#setState idle
+[2018-11-06 18:01:56.649] [main] [info] update#setState checking for updates
+[2018-11-06 18:01:56.759] [main] [info] update#setState idle
+[2018-11-06 19:01:56.651] [main] [info] update#setState checking for updates
+[2018-11-06 19:01:56.755] [main] [info] update#setState idle
+[2018-11-06 20:01:56.653] [main] [info] update#setState checking for updates
+[2018-11-06 20:01:56.663] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
+[2018-11-06 20:01:56.664] [main] [info] update#setState idle
