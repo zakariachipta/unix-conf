@@ -2,3 +2,4 @@
 *.sublime-workspace
 "Package Control.cache"/
 .vscode/
+*.code-workspace

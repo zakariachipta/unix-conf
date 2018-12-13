@@ -108,7 +108,7 @@
     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
     "editor.wordWrap": "wordWrapColumn",
     "editor.wrappingIndent": "none",
-    "editor.wordWrapColumn": 100,
+    "editor.wordWrapColumn": 120,
     "zenMode.hideTabs": false,
     "line-counter.excludes": [
         "**/.git/**",
@@ -128,5 +128,6 @@
     "javascript.validate.enable": false,
     "terminal.integrated.rendererType": "dom",
     "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": true
+    "python.linting.pep8Enabled": true,
+    "git.inputValidation": "off"
 }
