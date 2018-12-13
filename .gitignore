@@ -3,3 +3,4 @@
 "Package Control.cache"/
 .vscode/
 *.code-workspace
+setup.cfg
