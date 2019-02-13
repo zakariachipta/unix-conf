@@ -25,12 +25,21 @@ alias clrswp='find . -name "*.swp" -delete'
 alias prjson='python -m json.tool'
 alias itp='ssh itp_dj@dev1.intoparty.com'
 alias ssh-add='eval $(ssh-agent) && ssh-add'
-alias gstat='git status'
-alias wip="git commit -a -m 'wip' && git push"
 alias startservices='sudo su -c "service mysql start; service redis-server restart;"'
 alias logcat-native='adb logcat ReactNative:V ReactNativeJS:V AndroidRuntime:V *:S'
+alias restart-adb='adb kill-server&&adb devices'
+alias wip='gitwip'
 # alias pip='pip3'
 # alias python='python3'
+
+gitwip () {
+    echo "adding .";
+    git add .;
+    echo "making commit with message: wip $1";
+    git commit -a -m "wip $1";
+    echo "pushing commit";
+    git push;
+}
 
 addpath() {
     export PATH=$PATH:$*

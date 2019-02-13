@@ -4,3 +4,4 @@
 .vscode/
 *.code-workspace
 setup.cfg
+disable-csrf.py

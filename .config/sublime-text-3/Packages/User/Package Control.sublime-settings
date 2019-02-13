@@ -1,31 +1,14 @@
 {
-	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"A File Icon",
-		"Alignment",
-		"All Autocomplete",
-		"Babel",
-		"Djaneiro",
-		"Dockerfile Syntax Highlighting",
-		"Dotfiles Syntax Highlighting",
-		"INI",
 		"JSCustom",
 		"Laravel Blade Highlighter",
-		"Material Theme",
-		"nginx",
-		"Package Control",
 		"PackageResourceViewer",
-		"PowerShell",
-		"Pretty JSON",
-		"Python Flake8 Lint",
 		"Sass",
-		"SCSS",
-		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeLinter-eslint"
+		"SublimeLinter"
 	]
 }

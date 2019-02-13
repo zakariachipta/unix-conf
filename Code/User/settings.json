@@ -40,7 +40,6 @@
     "editor.foldingStrategy": "auto",
     "editor.fontWeight": "normal",
     "editor.formatOnType": true,
-    "editor.minimap.renderCharacters": false,
     "editor.mouseWheelZoom": true,
     "editor.smoothScrolling": true,
     "editor.snippetSuggestions": "inline",
@@ -110,14 +109,14 @@
     "editor.wrappingIndent": "none",
     "editor.wordWrapColumn": 120,
     "zenMode.hideTabs": false,
-    "line-counter.excludes": [
-        "**/.git/**",
-        "**/.vscode/**",
-        "**/dev/**",
-        "**/dist/**",
-        "**/node_modules/**",
-        "**/static/**"
-    ],
+    // "line-counter.excludes": [
+    //     "**/.git/**",
+    //     "**/.vscode/**",
+    //     "**/dev/**",
+    //     "**/dist/**",
+    //     "**/node_modules/**",
+    //     "**/static/**"
+    // ],
     "search.showLineNumbers": true,
     "workbench.editor.highlightModifiedTabs": true,
     "npm.packageManager": "yarn",
@@ -129,5 +128,17 @@
     "terminal.integrated.rendererType": "dom",
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
-    "git.inputValidation": "off"
+    "git.inputValidation": "off",
+    "files.watcherExclude": {
+        "**/android/**": true,
+        "**/ios/**": true
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.overviewRulerBorder": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "default"
 }
