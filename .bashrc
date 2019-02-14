@@ -212,9 +212,6 @@ export PS1="\
 \[$(tput sgr0)\]\
 "
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 export PATH="$(python3 -m site --user-base)/bin:$PATH"
 
@@ -227,3 +224,4 @@ else
     echo "WSL not found"
     export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre/"
 fi
+
