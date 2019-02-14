@@ -1,6 +1,6 @@
 [user]
-	email = dj@intoparty.com
-	name = DJ
+	email = zakaria@chipta.com
+        name = Zakaria
 [push]
 	default = simple
 [alias]
@@ -14,6 +14,6 @@
   ui = true
 [core]
   excludesfile = ~/.gitignore
-  editor = 'code' --wait
+  editor = 'vim' --wait
 [pull]
   rebase = true
